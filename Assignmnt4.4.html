@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>CSS3 Animations</title>
+<style>
+@keyframes drive {
+  from {
+    transform: scale(0.2);
+  }
+  to {
+    transform: scale(1);
+  }
+}
+.bicycle{
+  animation: drive 5s cubic-bezier(0.02, 0.01, 0.21, 1) infinite;
+}
+
+</style>
+</head>
+<body>
+<div>
+
+<img class="bicycle" src="D:\VickyHTML\HTML\WebContent\Images\bicycle.jpg"/>
+</div>
+</body>
+</html>
